@@ -1,0 +1,17 @@
+﻿<Application x:Class="WpfRKeeperV2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfRKeeperV2"
+             StartupUri="Views/LoginPage.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles\ButtonStyle.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Styles\TextBoxStyle.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Styles\BorderStyle.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
